@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "style": "folder"
+          },
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "background": "accent",
+          "type": "path",
+          "style": "powerline"
+        }
+      ]
+    }
+  ],
+  "version": 3,
+  "shell_integration": true,
+  "final_space": true
+}
