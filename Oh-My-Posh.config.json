@@ -16,7 +16,7 @@
       ]
     },
     {
-      "alignment": "right",
+      "alignment": "left",
       "segments": [
         {
           "background": "#ffffff",
@@ -54,5 +54,6 @@
   ],
   "final_space": true,
   "shell_integration": true,
+  "upgrade_notice": true,
   "version": 3
 }
