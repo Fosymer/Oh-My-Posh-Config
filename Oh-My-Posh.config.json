@@ -10,7 +10,7 @@
             "style": "folder"
           },
           "foreground": "#ffffff",
-          "powerline_symbol": "\ue0b0",
+          ;"powerline_symbol": "\ue0b0",
           "background": "accent",
           "type": "path",
           "style": "powerline"
