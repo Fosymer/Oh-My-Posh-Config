@@ -19,6 +19,6 @@
     }
   ],
   "version": 3,
-  "shell_integration": true,
+  "shell_integration": false,
   "final_space": true
 }
