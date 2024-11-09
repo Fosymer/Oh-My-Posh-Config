@@ -53,5 +53,6 @@
     }
   ],
   "final_space": true,
+  "shell_integration": true,
   "version": 3
 }
