@@ -55,6 +55,6 @@
   "final_space": true,
   "shell_integration": true,
   "upgrade_notice": true,
-  "accent_color": "red",
+  "accent_color": red,
   "version": 3
 }
