@@ -2,16 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-      "alignment": "left",
+      "type": "rprompt",
       "segments": [
         {
-          "background": "#ffe9aa",
-          "foreground": "#100e23",
-          "powerline_symbol": "\ue0b0",
-          "style": "powerline",
-          "template": " \uf0e7 ",
-          "type": "root"
-        },
+          "foreground": "#007ACC",
+          "properties": {
+            "time_format": "15:04:05"
+          },
+          "style": "plain",
+          "template": " {{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        }
+      ]
+    },
+    {
+      "alignment": "left",
+      "segments": [
         {
           "background": "#ffffff",
           "foreground": "#100e23",
@@ -41,22 +47,6 @@
           "style": "powerline",
           "template": " {{ .HEAD }} ",
           "type": "git"
-        },
-        {
-          "background": "#906cff",
-          "foreground": "#100e23",
-          "powerline_symbol": "\ue0b0",
-          "style": "powerline",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
-          "type": "python"
-        },
-        {
-          "background": "#ff8080",
-          "foreground": "#ffffff",
-          "powerline_symbol": "\ue0b0",
-          "style": "powerline",
-          "template": " {{ reason .Code }} ",
-          "type": "status"
         }
       ],
       "type": "prompt"
