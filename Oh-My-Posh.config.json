@@ -13,6 +13,12 @@
         {
           "foreground": "#ff0000",
           "style": "plain",
+          "template": "# ",
+          "type": "root"
+        },
+        {
+          "foreground": "#ffffff",
+          "style": "plain",
           "template": "{{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         },
