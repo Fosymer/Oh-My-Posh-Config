@@ -58,7 +58,7 @@
         "foreground": "#100e23",
         "background": "#906cff",
         "template": "  {{ .Full }} "
-        }
+        },
         {
           "foreground": "#007ACC",
           "style": "plain",
