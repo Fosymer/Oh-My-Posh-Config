@@ -7,7 +7,7 @@ blocks:
       - type: path
         style: powerline
         powerline_symbol: ""
-        foreground: "#ffffff"
+        foreground: "#000000"
         background: "#d50000"
         properties:
           style: folder
