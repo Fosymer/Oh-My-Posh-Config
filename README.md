@@ -1,1 +1,1 @@
-This is my personal Oh My Posh config Files
+This is my personal Oh My Posh config files
