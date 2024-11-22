@@ -8,6 +8,6 @@ blocks:
         style: powerline
         powerline_symbol: ""
         foreground: "#ffffff"
-        background: "#61AFEF"
+        background: "Red"
         properties:
           style: folder
