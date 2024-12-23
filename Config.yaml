@@ -1,6 +1,7 @@
 final_space: true
 patch_pwsh_bleed: true
 shell_integration: true
+enable_cursor_positioning: true
 version: 3
 blocks:
   - type: prompt
