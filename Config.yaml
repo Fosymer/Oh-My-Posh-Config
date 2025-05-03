@@ -1,10 +1,14 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
 cache:
  - duration: none
 final_space: true
 patch_pwsh_bleed: true
 shell_integration: true
 enable_cursor_positioning: true
+upgrade:
+  notice: true
+  interval: 168h
+  auto: false
+  source: cdn
 version: 3
 blocks:
   - type: prompt
