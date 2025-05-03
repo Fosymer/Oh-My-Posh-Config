@@ -13,8 +13,7 @@ upgrade:
   source: cdn
 version: 3
 maps:
-   user_name:
-    jan: "Cole"
+   user_name: "Cole"
 blocks:
   - type: prompt
     alignment: left
