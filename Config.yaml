@@ -7,10 +7,10 @@ shell_integration: true
 enable_cursor_positioning: true
 iterm_features: false
 upgrade:
-  notice: true
-  interval: 168h
-  auto: true
-  source: cdn
+  - notice: true
+  - interval: 168h
+  - auto: true
+  - source: cdn
 version: 3
 blocks:
   - type: prompt
