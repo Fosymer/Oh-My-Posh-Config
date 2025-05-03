@@ -12,8 +12,6 @@ upgrade:
   auto: true
   source: cdn
 version: 3
-maps:
-   user_name: "Cole"
 blocks:
   - type: prompt
     alignment: left
