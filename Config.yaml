@@ -3,7 +3,6 @@ cache:
 final_space: true
 patch_pwsh_bleed: true
 shell_integration: true
-streaming: 100
 version: 3
 blocks:
   - type: prompt
@@ -37,10 +36,3 @@ blocks:
         templates:
           error: "✗"
           success: "✓"
-  - type: prompt
-    alignment: left
-    segments:
-      - type: prompt
-        style: plain
-        foreground: "#ffffff"
-        template: "❯ "
