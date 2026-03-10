@@ -13,6 +13,34 @@ blocks:
         style: powerline
         powerline_symbol: ""
         foreground: "#ffffff"
-        background: "#d50000"
+        background: "#0077be"
         properties:
           style: folder
+          max_depth: 3
+      - type: git
+        style: powerline
+        powerline_symbol: ""
+        foreground: "#ffffff"
+        background: "#28a745"
+        properties:
+          display_status: true
+          display_stash_count: true
+      - type: status
+        style: diamond
+        leading_diamond: ""
+        trailing_diamond: ""
+        foreground: "#ffffff"
+        background: "#d50000"
+        display_exit_code: false
+        properties:
+          display_exit_code: false
+        templates:
+          error: "✗"
+          success: "✓"
+  - type: prompt
+    alignment: left
+    segments:
+      - type: prompt
+        style: plain
+        foreground: "#ffffff"
+        template: "❯ "
