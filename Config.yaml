@@ -23,3 +23,8 @@ blocks:
         properties:
           display_status: true
           display_stash_count: true
+      - type: python
+        style: powerline
+        powerline_symbol: ""
+        foreground: "#ffffff"
+        background: "#ffd343"
