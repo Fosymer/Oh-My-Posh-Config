@@ -15,7 +15,6 @@ blocks:
         background: "#0077be"
         properties:
           style: folder
-          max_depth: 3
       - type: git
         style: powerline
         powerline_symbol: ""
