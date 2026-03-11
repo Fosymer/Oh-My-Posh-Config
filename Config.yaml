@@ -12,7 +12,7 @@ blocks:
         style: powerline
         powerline_symbol: ""
         foreground: "#ffffff"
-        background: "#0077be"
+        background: "#ff0000"
         properties:
           style: folder
       - type: git
