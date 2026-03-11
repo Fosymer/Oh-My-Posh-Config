@@ -24,15 +24,3 @@ blocks:
         properties:
           display_status: true
           display_stash_count: true
-      - type: status
-        style: diamond
-        leading_diamond: ""
-        trailing_diamond: ""
-        foreground: "#ffffff"
-        background: "#d50000"
-        display_exit_code: false
-        properties:
-          display_exit_code: false
-        templates:
-          error: "✗"
-          success: "✓"
