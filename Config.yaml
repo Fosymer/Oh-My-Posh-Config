@@ -3,7 +3,6 @@ cache:
 final_space: true
 patch_pwsh_bleed: true
 shell_integration: true
-#streaming: 100
 version: 3
 blocks:
   - type: prompt
@@ -13,6 +12,15 @@ blocks:
         style: powerline
         powerline_symbol: ""
         foreground: "#ffffff"
-        background: "#d50000"
+        background: "#0077be"
         properties:
           style: folder
+          max_depth: 3
+      - type: git
+        style: powerline
+        powerline_symbol: ""
+        foreground: "#ffffff"
+        background: "#28a745"
+        properties:
+          display_status: true
+          display_stash_count: true
